@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+    body{
+        background-color:rgb(214, 177, 179);
+    }
+
+
+    #contenedor{
+        width: 980px;
+        margin:auto;
+    }
+
+
+    main{
+        width: 980px;
+        height:200px;
+        background-color:rgb(202, 66, 73);
+    }
+
+
+    header nav{
+        text-align: center;
+        background-color:rgb(211, 138, 142);
+    }
+
+
+    header nav ul li{
+        display: inline-block;
+        padding:10px;
+    }
+
+
+    header nav ul li a{
+        text-decoration: none;
+        font-family: fantasy;
+        font-size: 20px;
+        color:rgb(212, 89, 95);
+        font-weight: bold;
+
+    }
+
+
+    header nav ul li a:hover{
+        color:rgb(212, 105, 111);
+    }
+
+
+    section{
+        float: left;
+        width: 750px;
+        height:450px;
+        margin-top:5px;
+        margin-bottom: 5px;
+        background-color:rgb(214, 177, 179);
+    }
+
+
+footer{
+    clear: both;
+    width: 980px;
+    height: 50px;
+    background-color: rgb(66, 15, 17);
+    text-align: center;
+    color:#ddd;
+    line-height:50px ;
+    font-style: italic;
+}

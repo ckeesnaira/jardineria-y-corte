@@ -1,0 +1,95 @@
+body{
+    background-image: url(../img/fondo1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+
+  
+  image{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+    }
+  
+
+    @font-face {
+      font-family:titulo1;
+      src: url(Letra1.otf);
+    }
+  
+
+    @font-face {
+      font-family:titulo2;
+      src: url(Letra2.otf);
+    }
+  
+
+    h1{
+      color: #dee0f3;
+      font-size: 75px;
+      font-family:titulo1;
+      font-weight: bold;  
+      text-align: center ; 
+      }
+
+
+      h2{
+        color: rgb(165, 42, 48);;
+        font-size: 30px;
+        font-family:titulo2;
+        font-weight: bold;  
+        text-align: center ; 
+      }
+   
+  
+      h3{
+        color: rgb(165, 42, 48);
+        font-size: 30px;
+        font-family:titulo2;
+        font-weight: bold;  
+        text-align: center ;
+      }
+
+
+      h4{
+        font-size:20px;
+        font-family:Georgia,'Times New Roman', Times, serif;
+        font-weight: bold;
+        text-align: justify;
+        color: #0a0a0a;
+  }
+
+
+  h5{
+    color: #dee0f3;
+    font-size: 25px;
+    font-family:titulo1;
+    font-weight: bold;  
+    text-align: center ; 
+    }
+
+
+    h6{
+        color: #dee0f3;
+        font-size: 12px;
+        font-family:titulo1;
+        font-weight: bold; 
+        }
+  
+
+  h7{
+    font-size:20px;
+    font-family: serif;
+    font-weight: bold;
+    text-align: center;
+    color: #121213;
+  }
+  
+  
+  li{
+    color: #FFFFFF
+  }
+  
+  
+    

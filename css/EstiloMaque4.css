@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+    body{
+        background-color:rgb(218, 190, 174);
+    }
+
+
+    #contenedor{
+        width: 980px;
+        margin:auto;
+    }
+
+
+    main{
+        width: 980px;
+        height:125px;
+        background-color:rgb(100, 52, 24);
+    }
+
+
+    header nav{
+        text-align: center;
+        background-color:rgb(129, 74, 42);
+    }
+
+
+    header nav ul li{
+        display: inline-block;
+        padding:10px;
+    }
+
+
+    header nav ul li a{
+        text-decoration: none;
+        font-family: fantasy;
+        font-size: 20px;
+        color:rgb(90, 55, 35);
+        font-weight: bold;
+
+    }
+
+
+    header nav ul li a:hover{
+        color:rgb(85, 44, 20);
+    }
+
+
+    section{
+        float: left;
+        width: 980px;
+        height:475px;
+        margin-top:5px;
+        margin-bottom: 5px;
+        background-color:rgb(218, 190, 174);
+    }
+
+
+footer{
+    clear: both;
+    width: 980px;
+    height: 50px;
+    background-color: rgb(34, 16, 4);
+    text-align: center;
+    color:#ddd;
+    line-height:50px ;
+    font-style: italic;
+}
